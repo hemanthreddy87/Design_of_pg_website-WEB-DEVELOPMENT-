@@ -1,0 +1,132 @@
+
+<style>
+  body{
+    background-color: white;
+  }
+  .main{
+         
+          height: 100%;
+          display: flex;
+         
+          justify-content: center;
+         
+          
+  }
+  .maincontainer{
+      
+      height: 12.5cm;
+      width: 8cm;
+      position: relative;
+      top: 4cm;
+      box-shadow: 3px 2px 4px 3px black;
+      border-radius: 2px;
+      background-color: white;
+     
+       
+
+
+     
+  }
+  .container{
+    
+     height: 1cm;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 12px;
+    
+         
+  }
+     .box{
+     
+     
+      height: 0.8cm;
+      width: 10cm;
+
+      display: flex;
+      flex-direction: column;
+     
+      
+       
+  }
+
+  .submit{
+      height: 0.8cm;
+      width: 7cm;
+      background-color:lightseagreen;
+      border-color: none;
+      color: white;
+      border-radius: 2px;
+  }
+  #gender{
+      position: relative;
+      right: 1.2cm;
+  }
+</style>
+
+
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+<div class="main">
+<body style="background: url(webone.jpg);">
+  <div class="maincontainer">
+    <div class="container">
+      <h1>Signup</h1>
+  </div>
+  <div>
+    <hr>
+  </div>
+
+    <div class="container">
+      <div class="box" style= "border-radius: 2px;border: solid black 1px;width: 0.9cm;display: flex;align-items: center;justify-content: center;"><i class="fa-solid fa-user fa-xl"></i></div>
+      <div class="box"><input name="name"type="text" placeholder="Full Name" style="height: 4cm;margin-left: 1px;" require/></div>   
+  </div>
+  <div class="container">
+    <div class="box" style= "border-radius: 2px;border: solid black 1px;width: 0.9cm;display: flex;align-items: center;justify-content: center;"><i class="fa-solid fa-phone fa-xl"></i></div>
+    <div class="box"><input name="number"type="tel" placeholder="Phone Number" style="height: 4cm;margin-left: 1px;" require/></div>   
+ </div>
+  <div class="container">
+      <div class="box" style= "border-radius: 2px;border: solid black 1px;width: 0.9cm;display: flex;align-items: center;justify-content: center;"><i class="fa-solid fa-envelope fa-xl"></i></div>
+      <div class="box"><input name="email"type="email" placeholder="Email" style="height: 4cm;margin-left: 1px;"require/></div>   
+  </div>
+  <div class="container">
+ 
+      <div class="box" style= " border-radius: 2px;border: solid black 1px;width: 0.9cm;display: flex;align-items: center;justify-content: center;"><i class="fa-solid fa-lock fa-xl"></i></div>
+      <div class="box"><input name="password"type="password" placeholder="Password" style="height: 4cm;margin-left: 1px;"require/></div>     
+
+  </div>
+
+  <div class="container">
+    <div class="box" style= "border-radius: 2px;border: solid black 1px;width: 0.9cm;display: flex;align-items: center;justify-content: center;"><i class="fa-solid fa-building-columns fa-xl"></i></div>
+    <div class="box"><input name="collegename"type="text" placeholder="College Name" style="height: 4cm;margin-left: 1px;"require/></div>   
+ </div>
+ <div class="container" id="gender" require>
+      <p>I'm a    <input name="gender" type="radio" value="male">Male      <input name="gender" type="radio" value="female">Female</p>   
+</div>
+
+
+  <div class="container">
+         <div ><input class="submit" type="submit" value="submit"></div>     
+   </div>
+
+  <div class="container">
+ 
+   <P>Already have an account? <a style="text-decoration: none;" href="icon.html">Login</a></P>
+
+  </div>
+
+ 
+</div>
+</div>
+
+  
+</body>
+
+
+
+ 0 '
+ '

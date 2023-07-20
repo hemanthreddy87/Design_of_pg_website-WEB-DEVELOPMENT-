@@ -1,0 +1,91 @@
+<style>
+    .main{
+            
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+          
+            
+    }
+    .maincontainer{
+        border: 1px solid black;
+        height: 7cm;
+        width: 7.5cm;
+        box-shadow: 3px 2px 4px 3px black;
+      border-radius: 2px;
+      background: white;
+      
+
+       
+    }
+    .container{
+      
+       height: 1cm;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 12px;
+      
+           
+    }
+       .box{
+       
+       
+        height: 0.8cm;
+        width: 5cm;
+
+        display: flex;
+        flex-direction: column;
+       
+        
+         
+    }
+
+    .submit{
+        height: 0.8cm;
+        width: 6cm;
+        background-color:lightseagreen;
+        border-color: none;
+        color: white;
+        border-radius: 2px;
+    }
+</style>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<div class="main">
+<body style="background: url(webone.jpg);">
+    <div class="maincontainer">
+        <div class="container">
+            <h1>Login</h1>   
+            
+        </div>
+        <hr>
+    <div class="container">
+        <div class="box" style= "border-radius: 2px;border: solid black 1px;width: 0.9cm;display: flex;align-items: center;justify-content: center;"><i class="fa-solid fa-envelope fa-xl"></i></div>
+        <div class="box"><input name="email" type="email" placeholder="Email" style="height: 4cm;margin-left: 1px;" require/></div>   
+    </div>
+    <div class="container">
+   
+        <div class="box" style= " border-radius: 2px;border: solid black 1px;width: 0.9cm;display: flex;align-items: center;justify-content: center;"><i class="fa-solid fa-lock fa-xl"></i></div>
+        <div class="box"><input name="password" type="password" placeholder="Password" style="height: 4cm;margin-left: 1px;" require/></div>     
+ 
+    </div>
+    <div class="container">
+           <div ><input class="submit" type="submit" value="LOGIN"></div>     
+     </div>
+
+    <div class="container">
+   
+      <p><a style="text-decoration: none; "href="icon1.html">Click here</a> to register a new account</p>
+ 
+    </div>
+
+   
+</div>
+</div>
+    
+</body>
